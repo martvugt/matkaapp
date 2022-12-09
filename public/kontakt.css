@@ -1,0 +1,92 @@
+body {
+    background-image: url("./pildid/Hills@2x.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 778px;
+    width: 100%;
+    letter-spacing: 2.25px;
+  }
+  
+  .form {
+    background-image: url("./pildid/Hills@2x.png");
+    box-shadow: 10px 30px 60px 10px rgba(0, 0, 0, 0.4);
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 150px;
+  }
+  
+  .mainTitle {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 80px;
+    width: 300px;
+    font-size: 2rem;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-weight: 800;
+  }
+  .secondTitle {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #5a5353;
+  }
+  
+  .terms {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    margin-left: -4px;
+    color: #5a5353;
+  }
+  
+  .termsConditions{
+    margin-top: 30px;
+    margin-bottom: 27px;
+    margin-left: 60px;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #b8b8b8;
+  }
+  .submit {
+    background-color: #2b2a2a;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 20px 30px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+  
+  .backHome {
+    background-color: #2b2a2a;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 30px 40px ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 800;
+    width: 180px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-left: 40px;
+  }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="kontakt.css">
+  <title>Kontaktivorm</title>
+</head>
+
+<body>
+  <div class="paiskonteiner">
+    <div class="container">
+      <%- include("./partials/matkamenyy.ejs") %>
+        <!--
+  <a class="backHome" href="./index.html">Tagasi matkalehele</a>
+  -->
+
+        <div class="contactForm">
+          <form class="form">
+            <div class="mainTitle">Kontaktivorm</div>
+            <div class="secondTitle">Lisateabe saamiseks võtke meiega ühendust.</div>
+            <input type="text" class="formEntry" placeholder="Name" />
+            <input type="text" class="formEntry" placeholder="Email" />
+            <textarea class="formEntry" placeholder="Message"></textarea>
+            <div class="submit">
+              <a href="" class="submit">Saada ära</a>
+            </div>
+            <input type="checkbox" class="termsConditions">
+            <label class="terms">Nõustun kasutustingimustega.</label>
+          </form>
+
+</body>
+
+</html>
