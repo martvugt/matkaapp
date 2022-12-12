@@ -52,6 +52,7 @@ app.get('/', naitaEsilehte)
 app.get('/uudised', naitaUudised)
 app.get('/kontakt', naitaKontakt)
 
+
 function naitaTest(req, res) {
     res.render('test', {nimed: nimed})
 }
