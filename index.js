@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const PORT = process.emv || 3000
 
 const path = require('path')
 
@@ -67,4 +68,4 @@ function naitaKontakt(req,res) {
   res.render('kontakt')
 }
 
-app.listen(80)
+app.listen(PORT, function() {console.log("Matkaäpp kuulab pordil: " + PORT)})
